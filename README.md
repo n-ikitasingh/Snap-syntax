@@ -1,27 +1,18 @@
-# KAMUI — Portfolio Website
+# KAMUI: Portfolio Website
 
-A minimal, Japanese-inspired personal portfolio and project showcase website built with pure **HTML & CSS** (zero frameworks, zero dependencies).
-
----
-
-## Preview
-
-> *Homepage hero with live cursor-parallax animation*
-
-The main image inside the blue frame responds to cursor movement in **real time** — moving in the opposite direction to the cursor, creating a parallax depth effect.
+A minimal, Japanese-inspired personal portfolio and project showcase website built with pure **HTML & CSS** 
 
 ---
 
 ## Features
 
-- **Pure HTML + CSS** — no JavaScript frameworks, no build tools, no npm
-- **Cursor Parallax** — hero image moves opposite to mouse direction
-- **Custom Cursor** — minimal dot cursor with hover state
-- **Brand System** — full color palette, typography, and logo showcase
-- **Dashboard UI Mockup** — fully coded blogging platform interface
-- **Stationery Mockup** — business cards, envelopes, and paper assets
-- **Responsive-ready layout** — fluid typography with `clamp()`
-- **Smooth scroll** — native CSS scroll behavior
+- **Pure HTML + CSS**: no JavaScript frameworks, no build tools, no npm
+- **Cursor Parallax**: hero image moves opposite to mouse direction
+- **Custom Cursor**: minimal dot cursor with hover state
+- **Brand System**: full color palette, typography, and logo showcase
+- **Dashboard UI Mockup**: fully coded blogging platform interface
+- **Stationery Mockup**: business cards, envelopes, and paper assets
+- **Responsive-ready layout**: fluid typography with `clamp()`
 
 ---
 
