@@ -1,4 +1,5 @@
 # KAMUI: Portfolio Website
+Link: https://n-ikitasingh.github.io/Snap-syntax/
 
 A minimal, Japanese-inspired personal portfolio and project showcase website built with pure **HTML & CSS** 
 
@@ -58,18 +59,18 @@ kamui-portfolio/
 
 ## Sections
 
-1. **Hero** — KAMUI title, blue-bordered parallax frame, project navigation
-2. **Project Detail** — Full-bleed duotone header with role/date/status metadata
-3. **Brand Story** — "Revolutionary Platform" copy and concept description
-4. **Logo Showcase** — KAMUI geometric logo on white and crimson backgrounds
-5. **Color Palette** — Three Pantone swatches with CMYK, RGB, and HEX values
-6. **Typography** — Azo Sans and Source Sans Pro type specimens
-7. **Platform Philosophy** — Power, Speed and Simplicity narrative
-8. **Business Cards** — Flat design and 3D tilted card mockups
-9. **Stationery** — Full brand collateral flat-lay
-10. **Dashboard Mockup** — Blogging platform UI with stats, posts, and search
-11. **Thank You** — Social share links
-12. **Next Project** — Mountain parallax transition to Personal Portfolio
+1. **Hero** - KAMUI title, blue-bordered parallax frame, project navigation
+2. **Project Detail** - Full-bleed duotone header with role/date/status metadata
+3. **Brand Story** - "Revolutionary Platform" copy and concept description
+4. **Logo Showcase** - KAMUI geometric logo on white and crimson backgrounds
+5. **Color Palette** - Three Pantone swatches with CMYK, RGB, and HEX values
+6. **Typography** - Azo Sans and Source Sans Pro type specimens
+7. **Platform Philosophy** - Power, Speed and Simplicity narrative
+8. **Business Cards** - Flat design and 3D tilted card mockups
+9. **Stationery** - Full brand collateral flat-lay
+10. **Dashboard Mockup** - Blogging platform UI with stats, posts, and search
+11. **Thank You** - Social share links
+12. **Next Project** - Mountain parallax transition to Personal Portfolio
 
 ---
 
@@ -84,6 +85,3 @@ git clone https://n-ikitasingh/Snap-synatx.git
 # Open in browser
 open index.html
 ```
----
-
-*Built with HTML & CSS only · No frameworks · No dependencies*
