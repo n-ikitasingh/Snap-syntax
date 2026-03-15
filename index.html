@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KAMUI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page page--landing" id="page-landing">
+
+  <header class="hdr">
+    <nav class="hdr__nav"><a href="#page-profile" class="hdr__link">PROFILE</a></nav>
+    <a href="#page-landing" class="hdr__logo">
+      <svg viewBox="0 0 46 66" class="logo-svg">
+        <text x="4"  y="26" class="lc">A</text><text x="26" y="26" class="lc">8</text>
+        <text x="4"  y="54" class="lc">7</text><text x="26" y="54" class="lc">H</text>
+        <rect x="1" y="1" width="44" height="64" fill="none" stroke="#0a0a0b" stroke-width="2"/>
+        <line x1="23" y1="12" x2="23" y2="53" stroke="#2c308c" stroke-width="1.5"/>
+      </svg>
+    </a>
+    <nav class="hdr__nav hdr__nav--r"><a href="#page-project" class="hdr__link">PROJECTS</a></nav>
+  </header>
+
+  
+  <div class="canvas">
+    <div class="zones">
+      <div class="z" data-z="tl"></div><div class="z" data-z="tc"></div><div class="z" data-z="tr"></div>
+      <div class="z" data-z="ml"></div><div class="z" data-z="mc"></div><div class="z" data-z="mr"></div>
+      <div class="z" data-z="bl"></div><div class="z" data-z="bc"></div><div class="z" data-z="br"></div>
+    </div>
+
+    <h1 class="kt"><a href="#page-project">KAMUI</a></h1>
+
+    <div class="frame">
+      <svg class="frame-svg" viewBox="0 0 380 540" overflow="visible">
+        <path class="fp"
+          d="M3,3 L377,3 L377,537 L3,537 Z"
+          fill="none" stroke="#2c308c" stroke-width="5"
+          stroke-dasharray="1828" stroke-dashoffset="1828">
+          <animate attributeName="stroke-dashoffset"
+            from="1828" to="0" dur="0.9s" begin="0.1s"
+            fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+        </path>
+      </svg>
+
+      <svg class="fd fd--dash" viewBox="0 0 80 4">
+        <line x1="2" y1="2" x2="78" y2="2" stroke="#b8b8c8" stroke-width="2"
+          stroke-dasharray="76" stroke-dashoffset="76">
+          <animate attributeName="stroke-dashoffset" from="76" to="0"
+            dur="0.4s" begin="1.3s" fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+        </line>
+      </svg>
+
+      <svg class="fd fd--circle" viewBox="0 0 50 50">
+        <circle cx="25" cy="25" r="20" fill="none" stroke="#b8b8c8" stroke-width="1.5"
+          stroke-dasharray="126" stroke-dashoffset="126">
+          <animate attributeName="stroke-dashoffset" from="126" to="0"
+            dur="0.6s" begin="1.5s" fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+        </circle>
+      </svg>
+
+      <svg class="fd fd--vl" viewBox="0 0 2 54">
+        <line x1="1" y1="0" x2="1" y2="54" stroke="#b8b8c8" stroke-width="1.5"
+          stroke-dasharray="54" stroke-dashoffset="54">
+          <animate attributeName="stroke-dashoffset" from="54" to="0"
+            dur="0.4s" begin="1.4s" fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+        </line>
+      </svg>
+
+      <div class="hp">
+        <div class="hp__gray"></div>
+        <div class="hp__blue"></div>
+      </div>
+
+      <div class="num">01</div>
+
+
+      <a href="#page-project" class="load">LOAD PROJECT</a>
+
+      <span class="vt">Personal Exploration</span>
+    </div>
+  </div>
+
+  <nav class="pagbar">
+    <a href="#page-project" class="pag pag--act">01 KAMUI</a>
+    <a href="#page-project" class="pag">02 PERSONAL PORTFOLIO</a>
+    <a href="#page-project" class="pag">03 PAIS BLANCHE</a>
+  </nav>
+
+</div>
+
+
+<div class="page page--profile" id="page-profile">
+
+  <div class="pf-frame">
+    <svg class="pf-fsv" viewBox="0 0 380 540" overflow="visible">
+      <path class="pf-fp" d="M3,3 L377,3 L377,537 L3,537 Z"
+        fill="none" stroke="#2c308c" stroke-width="4"
+        stroke-dasharray="1828" stroke-dashoffset="1828">
+        <animate attributeName="stroke-dashoffset" from="1828" to="0"
+          dur="0.9s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+      </path>
+    </svg>
+    <svg class="pf-fd pf-fd--dash" viewBox="0 0 80 4">
+      <line x1="2" y1="2" x2="78" y2="2" stroke="rgba(255,255,255,0.2)" stroke-width="2"
+        stroke-dasharray="76" stroke-dashoffset="76">
+        <animate attributeName="stroke-dashoffset" from="76" to="0"
+          dur="0.4s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+      </line>
+    </svg>
+    <svg class="pf-fd pf-fd--circle" viewBox="0 0 50 50">
+      <circle cx="25" cy="25" r="20" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"
+        stroke-dasharray="126" stroke-dashoffset="126">
+        <animate attributeName="stroke-dashoffset" from="126" to="0"
+          dur="0.6s" begin="1.1s" fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+      </circle>
+    </svg>
+  </div>
+
+  <header class="hdr hdr--dk">
+    <nav class="hdr__nav"><a href="#page-landing" class="hdr__link hdr__link--lt">← BACK</a></nav>
+    <a href="#page-landing" class="hdr__logo">
+      <svg viewBox="0 0 46 66" class="logo-svg">
+        <text x="4"  y="26" class="lc lc--lt">A</text><text x="26" y="26" class="lc lc--lt">8</text>
+        <text x="4"  y="54" class="lc lc--lt">7</text><text x="26" y="54" class="lc lc--lt">H</text>
+        <rect x="1" y="1" width="44" height="64" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+        <line x1="23" y1="12" x2="23" y2="53" stroke="#6b70d4" stroke-width="1.5"/>
+      </svg>
+    </a>
+    <nav class="hdr__nav hdr__nav--r"><a href="#page-project" class="hdr__link hdr__link--lt">PROJECTS</a></nav>
+  </header>
+
+  <div class="pf-lay">
+    <aside class="pf-sb">
+      <div class="pf-pic"></div>
+      <section class="pf-sec"><h4>EXPERIENCE</h4>
+        <ul>
+          <li><b>Google</b><span>Senior UX Engineer</span></li>
+          <li><b>Google</b><span>UX Engineer</span></li>
+          <li><b>Apple</b><span>Front-End Dev Intern</span></li>
+          <li><b>Enki</b><span>Art Director</span></li>
+          <li><b>Eksit</b><span>Full-Stack Dev.</span></li>
+          <li><b>Idearna</b><span>Full-Stack Designer</span></li>
+          <li><b>Freelance</b><span>Designer &amp; Developer</span></li>
+        </ul>
+      </section>
+      <section class="pf-sec"><h4>AWARDS</h4>
+        <ul>
+          <li><em class="an">1x</em> CSSDA UX Designer of the Year</li>
+          <li><em class="an">1x</em> CSSDA Best Portfolio 2015</li>
+          <li><em class="an">3x</em> CSSDA Site of the Day</li>
+          <li><em class="an">1x</em> The FWA Mobile of the Day</li>
+          <li><em class="an">1x</em> Awwwards Developer Award</li>
+          <li><em class="an">3x</em> Awwwards Honorable Mention</li>
+          <li><em class="an">1x</em> One Page Love Site of the Day</li>
+          <li><em class="an">1x</em> CSS Line Site of the Day</li>
+          <li><em class="an">2x</em> French Design Index</li>
+          <li><em class="an">1x</em> Behance Web Design Served</li>
+          <li><em class="an">1x</em> 365 Awesome Designers #85</li>
+        </ul>
+      </section>
+      <section class="pf-sec"><h4>CONTACT</h4>
+        <ul>
+          <li><a href="#">Email</a></li><li><a href="#">Behance</a></li>
+          <li><a href="#">Dribbble</a></li><li><a href="#">Twitter</a></li>
+          <li><a href="#">Linkedin</a></li>
+        </ul>
+      </section>
+    </aside>
+    <div class="pf-body">
+      <p class="pf-big">I'm an <span class="hi">award winning</span> maker of things, living and working in Munich, Germany. My expertise stretches both the design and engineering spectrum, comprising different roles at agencies and companies such as <span class="hi">Google</span>, <span class="hi">Apple</span>, <span class="hi">Toyota</span>, to just name a few.</p>
+      <p class="pf-big">I'm currently working as a <span class="hi">Senior UX Engineer at Google</span>, crafting top secret sauce and awesome experiences for people around the globe.</p>
+      <a href="mailto:hi@example.com" class="pf-hit">Hit me up</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="page page--project" id="page-project">
+  <div class="wipe"></div>
+
+  <header class="hdr hdr--proj">
+    <nav class="hdr__nav"><a href="#page-landing" class="hdr__link">PROFILE</a></nav>
+    <a href="#page-landing" class="hdr__logo">
+      <svg viewBox="0 0 46 66" class="logo-svg">
+        <text x="4"  y="26" class="lc">A</text><text x="26" y="26" class="lc">8</text>
+        <text x="4"  y="54" class="lc">7</text><text x="26" y="54" class="lc">H</text>
+        <rect x="1" y="1" width="44" height="64" fill="none" stroke="#0a0a0b" stroke-width="2"/>
+        <line x1="23" y1="12" x2="23" y2="53" stroke="#2c308c" stroke-width="1.5"/>
+      </svg>
+    </a>
+    <nav class="hdr__nav hdr__nav--r"><a href="#page-project" class="hdr__link">PROJECTS</a></nav>
+  </header>
+
+  <div class="pw">
+    <div class="pt"><h1>KAMUI</h1></div>
+    <div class="ph">
+      <div class="ph__bg"></div>
+      <div class="ph__frame"><svg viewBox="0 0 760 340" preserveAspectRatio="none">
+        <path d="M3,3 L757,3 L757,337 L3,337 Z" fill="none" stroke="rgba(255,255,255,0.38)" stroke-width="3" stroke-dasharray="2192" stroke-dashoffset="2192">
+          <animate attributeName="stroke-dashoffset" from="2192" to="0" dur="0.8s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.77,0,0.18,1"/>
+        </path>
+      </svg></div>
+    </div>
+    <div class="pm">
+      <div class="pm__c"><h5>ROLE</h5><p>Art Direction<br>Visual Design<br>User Experience<br>Development</p></div>
+      <div class="pm__c"><h5>DATE</h5><p>April, 2015</p></div>
+      <div class="pm__c"><h5>STATUS</h5><p>Work in progress</p></div>
+    </div>
+    <div class="pb2"><h3 class="ps">REVOLUTIONARY PLATFORM</h3>
+      <p>Dissatisfied by the majority of blogging platforms that are at disposal, I set myself on a journey to change that dissapointing fact and challenge the <a href="#" class="il">status quo</a>.</p>
+      <p>My primary goal was to change the perception, flow, visual expression and language that I felt where implemented poorly by the competing platforms on the market.</p>
+    </div>
+    <div class="pbr">
+      <div class="pbr__s pbr__s--red"><div class="bl"><svg viewBox="0 0 80 80" class="bsvg"><polygon points="40,6 72,22 72,58 40,74 8,58 8,22" fill="none" stroke="#fff" stroke-width="1.5"/><line x1="40" y1="6" x2="8" y2="36" stroke="#fff" stroke-width="1.5"/><line x1="40" y1="6" x2="72" y2="36" stroke="#fff" stroke-width="1.5"/><line x1="40" y1="74" x2="40" y2="36" stroke="#fff" stroke-width="1.5"/></svg><span>KAMUI</span></div></div>
+      <div class="pbr__s pbr__s--wht"><div class="bl bl--dk"><svg viewBox="0 0 80 80" class="bsvg"><polygon points="40,6 72,22 72,58 40,74 8,58 8,22" fill="none" stroke="#222" stroke-width="1.5"/><line x1="40" y1="6" x2="8" y2="36" stroke="#222" stroke-width="1.5"/><line x1="40" y1="6" x2="72" y2="36" stroke="#222" stroke-width="1.5"/><line x1="40" y1="74" x2="40" y2="36" stroke="#222" stroke-width="1.5"/></svg><span>KAMUI</span></div></div>
+    </div>
+    <div class="ppal">
+      <div class="psw" style="background:#e9004c">
+        <div class="psw__info"><div class="psw__col"><b>PANTONE</b><br>Coated 1925 C</div><div class="psw__col"><div class="psw__row"><span>C</span>2%</div><div class="psw__row"><span>M</span>100%</div><div class="psw__row"><span>Y</span>62%</div><div class="psw__row"><span>K</span>0%</div></div><div class="psw__col"><div class="psw__row"><span>R</span>233</div><div class="psw__row"><span>G</span>0</div><div class="psw__row"><span>B</span>76</div></div><div class="psw__col"><b>HEX</b><br>#E9004C</div></div>
+        <div class="psw__tints"><div style="background:#e9004c"></div><div style="background:#ef4070"></div><div style="background:#f580a8"></div><div style="background:#fbbfd7"></div></div>
+      </div>
+      <div class="psw" style="background:#10181f">
+        <div class="psw__info"><div class="psw__col"><b>PANTONE</b><br>Coated Black 6 C</div><div class="psw__col"><div class="psw__row"><span>C</span>81%</div><div class="psw__row"><span>M</span>71%</div><div class="psw__row"><span>Y</span>59%</div><div class="psw__row"><span>K</span>76%</div></div><div class="psw__col"><div class="psw__row"><span>R</span>16</div><div class="psw__row"><span>G</span>24</div><div class="psw__row"><span>B</span>31</div></div><div class="psw__col"><b>HEX</b><br>#10181F</div></div>
+        <div class="psw__tints"><div style="background:#10181f"></div><div style="background:#374048"></div><div style="background:#8a9299"></div><div style="background:#d1d3d3"></div></div>
+      </div>
+      <div class="psw" style="background:#d1d3d3">
+        <div class="psw__info psw__info--dk"><div class="psw__col psw__col--dk"><b>PANTONE</b><br>Coated 427 C</div><div class="psw__col"><div class="psw__row psw__row--dk"><span>C</span>17%</div><div class="psw__row psw__row--dk"><span>M</span>12%</div><div class="psw__row psw__row--dk"><span>Y</span>13%</div><div class="psw__row psw__row--dk"><span>K</span>0%</div></div><div class="psw__col"><div class="psw__row psw__row--dk"><span>R</span>209</div><div class="psw__row psw__row--dk"><span>G</span>211</div><div class="psw__row psw__row--dk"><span>B</span>211</div></div><div class="psw__col psw__col--dk"><b>HEX</b><br>#D1D3D3</div></div>
+        <div class="psw__tints"><div style="background:#d1d3d3"></div><div style="background:#dcdede"></div><div style="background:#ebebeb"></div><div style="background:#f5f5f5"></div></div>
+      </div>
+    </div>
+    <div class="ptyp">
+      <div class="ptyp__b ptyp__b--lt"><p class="ptyp__name">Azo Sans</p><div class="ptyp__disp">AaBb<strong>Cc123</strong></div><p class="ptyp__abc">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p><p class="ptyp__abc">abcdefghijklmnopqrstuvwxyz</p><p class="ptyp__abc">1234567890!"#$%&amp;'()=/@</p></div>
+      <div class="ptyp__b ptyp__b--rd"><p class="ptyp__name ptyp__lt">Source Sans Pro</p><div class="ptyp__disp ptyp__lt">AaBb<strong>Cc123</strong></div><p class="ptyp__abc ptyp__lt">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p><p class="ptyp__abc ptyp__lt">abcdefghijklmnopqrstuvwxyz</p><p class="ptyp__abc ptyp__lt">1234567890!"#$%&amp;'()=/@</p></div>
+    </div>
+    <div class="pb2"><h3 class="ps">POWER, SPEED AND SIMPLICITY</h3>
+      <p>As the name and meaning of the platform already indicates, everything including the concept and design language was influenced by the <a href="#" class="il">Japanese</a> culture and mythology.</p>
+      <p>Most of the concept originates from my personal struggles and preferences when it comes to content management and publishing on the web.</p>
+      <p>I wanted to keep just the essence and minimal set of tools possible, stripping away all the unnecessary fuzz which nowadays comes with most hybrid-like platforms, empowering the user to focus on the lowest possible set of actions and decisions to make.</p>
+      <p>The content section, as well as the left sidebar are perfectly aligned and set to match the desired and expected user behaviour. Every single interaction is matched by both sections with tweening gestures and indicators based on the action triggered.</p>
+    </div>
+    <div class="pdash"><div class="imac"><div class="imac__screen"><div class="dash"><div class="dash__sb"><svg class="dash__ic" viewBox="0 0 30 30"><polygon points="15,2 27,8 27,22 15,28 3,22 3,8" fill="none" stroke="#fff" stroke-width="1"/><line x1="15" y1="2" x2="3" y2="14" stroke="#fff" stroke-width="1"/><line x1="15" y1="2" x2="27" y2="14" stroke="#fff" stroke-width="1"/><line x1="15" y1="28" x2="15" y2="14" stroke="#fff" stroke-width="1"/></svg><ul class="dash__nav"><li class="da">—DASHBOARD—</li><li>ADD POST</li><li>SEARCH</li><li>FILES</li><li>COMMENTS</li></ul><div class="dash__av"><div class="dash__dot"></div></div></div><div class="dash__main"><div class="dash__tb">History ≡</div><div class="dash__stats"><div class="dst"><b>3241</b><small>ARTICLE READS</small><div class="spk"></div></div><div class="dst"><b>1299</b><small>COMMENTS</small><div class="spk"></div></div><div class="dst"><b>375</b><small>UNIQUE VISITORS</small><div class="spk"></div></div></div><div class="dash__fil"><span>Recent ↓</span><span>Most popular ↓</span><span style="margin-left:auto">≡ ⊞</span></div><ul class="dash__posts"><li><div><strong>Social Justice Bullies: The Authoritarianism of Millennial Social Justice</strong><small>APR 9, 2015</small></div><div class="da2"><span>✏ Edit</span><span>Delete</span><span>⊙ Stats</span></div></li><li><div><strong>The Most Incredible Winning Streak in the History of Life on Earth</strong><small>MAY 18, 2015</small></div><div class="da2"><span>✏ Edit</span><span>Delete</span><span>⊙ Stats</span></div></li><li><div><strong>The Cult of Work You Never Meant to Join</strong><small>JUN 7, 2015</small></div><div class="da2"><span>✏ Edit</span><span>Delete</span><span>⊙ Stats</span></div></li></ul></div></div></div><div class="imac__neck"></div><div class="imac__base"></div></div></div>
+    <div class="pcard"><div class="card card--red"><span class="card__name">KAMUI</span><div class="card__detail"><b>John Doe</b><small>CEO &amp; Founder</small><b>Contact</b><small>info@kamui.io</small><small>+1 41 12 34 43</small></div></div><div class="card card--dk"><svg viewBox="0 0 60 60"><polygon points="30,4 54,16 54,44 30,56 6,44 6,16" fill="none" stroke="#fff" stroke-width="1.2"/><line x1="30" y1="4" x2="6" y2="26" stroke="#fff" stroke-width="1.2"/><line x1="30" y1="4" x2="54" y2="26" stroke="#fff" stroke-width="1.2"/><line x1="30" y1="56" x2="30" y2="26" stroke="#fff" stroke-width="1.2"/></svg></div></div>
+    <div class="pstat"><div class="pstat__inner"><div class="stat-note"><div class="stat-note__clip">⌗</div><div class="stat-note__body"><div class="stat-note__pen red"></div><div class="stat-note__pen wh"></div><div class="stat-note__clips">✄ ✄ ✄</div></div></div><div class="stat-cards"><div class="scard scard--red"><span>KAMUI</span></div><div class="scard scard--dk"></div><div class="scard scard--red"><span>KAMUI</span></div><div class="scard scard--dk"></div></div><div class="stat-env"><div class="stat-env__brad"></div><div class="stat-env__string"></div></div><div class="stat-bottom"><div class="stat-stamp">⊕</div><div class="stat-usb"></div><div class="stat-coins">○ ○</div><div class="stat-envsm"><div class="stat-envsm__dot"></div></div></div></div></div>
+    <div class="pthx"><p class="pthx__label">THANK YOU!</p><p>For your time and effort spent on browsing through my project. If you liked it feel free to spread the word.</p><div class="pthx__links"><a href="#" class="pthx__btn">FACEBOOK</a><a href="#" class="pthx__btn">TWITTER</a><a href="#" class="pthx__btn">PINTEREST</a></div></div>
+    <div class="pnext"><div class="pnext__plain"><span class="pnext__label">NEXT PROJECT</span><h1 class="pnext__title">PERSONAL PORTFOLIO</h1></div><div class="pnext__hover"><div class="pnext__mountain"></div><div class="pnext__birds"><span class="bird b1">✦</span><span class="bird b2">✦</span><span class="bird b3">✦</span><span class="bird b4">✦</span><span class="bird b5">✦</span><span class="bird b6">✦</span></div><span class="pnext__label pnext__label--ov">NEXT PROJECT</span><h1 class="pnext__title pnext__title--ov">PERSONAL PORTFOLIO</h1></div></div>
+  </div>
+</div>
+
+</body>
+</html>
